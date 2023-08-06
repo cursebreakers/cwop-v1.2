@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CWOP v1.1: NEXUS</title>
+        <link rel="stylesheet" href="../stylesheet.css">
+        <script src="../resources/js/scripts.js"></script>
+    </head>
+    <body>
+      <div class="construction" id="appstatus">THIS SITE IS UNDER CONSTRUCTION, BUT YOU MAY COME BACK LATER</div>
+      <h1 class="header">Cursebreakers: Nexus</h1>
+        <nav class="navbar">
+          <div class="navbox">
+            <button class="navbut" onclick="window.location.href='../index.html';">HOME</button>
+            <button class="navbut" onclick="window.location.href='../pages/adminportal.html';">OPS</button>      
+            <button class="navbut" onclick="window.location.href='https://cursebreakersapp.wordpress.com';">APP</button>
+            <div class="navstatus"><span class="versiontag" id="appstatus">CWOP v1.1, July, 2023</span></div>
+          </div>      
+        </nav>
+      <div class="nexusplatform"><h2 class="nexusheader">Nexus Portal</h2>
+        <p class="pN">Welcome to the submission portal for the Nexus project. When the project is live, you will be able to use the form below to log entries to the database core.</p>
+        <form class="pN" id="submissionForm">
+          <h3 class="nexusheader2">Enter Your details:</h3>
+          <input class="nexIn" type="email" id="emailin" placeholder="emailaddress@example.com">
+          <input class="nexIn" type="text" id="userin" placeholder="username">
+          <h3 class="nexusheader2">Provide URL/Citation and a few brief keywords about your submission:</h3>
+          <textarea class="nexIn" id="contentin" name="contentin" rows="2" cols="45" required></textarea>
+          <textarea class="nexIn" id="metain" name="metain" rows="4" cols="45" required></textarea>
+          <h3 class="nexusheader2">Confirmation:</h3>
+          <button class="subBtn" onclick="submitNexus()" id="subBtn">Submit</button>
+        </form>
+        <p class="pN">You will receive a confirmation email once your inputs have been verified.
+          <p class="pN"><a class="cclink" href="./nexus.html">Click here to go back</a></p>        
+        <div class="panel">
+          <a class="logolink" href="../index.html">
+            <img class="logolink" src="../images/cbshocklogo.png" alt="Cursebreakers Thunderchip Logo">
+          </a>  
+        </div>
+        <footer>
+          <h3 class=footer id="appstatus">CWOPv1.1: OFFLINE</h3>
+      </footer>
+    </body>
+    </html>
