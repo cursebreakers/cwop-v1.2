@@ -124,6 +124,7 @@ body {
     flex-direction: column;
     height: fit-content;
     align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(16,18,4,0.75);
     font-size: 20px;
     padding: 8px;
@@ -137,6 +138,12 @@ body {
    max-width: 400spx;
 }
 
+#colBtn {
+    margin: 5%;
+    justify-self: center;
+    background-color: #1D2125;
+    color: aquamarine;
+}
 
 .applink {
     font-size: 16px;
