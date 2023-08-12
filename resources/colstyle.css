@@ -144,6 +144,14 @@ body {
     font-size: 18px;
 }
 
+.phase {
+    padding: 4px;
+}
+
+
+.phases {
+    padding: 2px;
+}
 
 .panel {
     display: flex;
