@@ -162,29 +162,32 @@ body {
 
 .toolBox {
     list-style-type: none;
+    justify-content: center;
     display: grid;
     grid-template-columns: 32vw 32vw 32vw;
-    grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
+    grid-template-rows: 50vh;
     gap: 2px;
+    border: 2px solid #000000;
 }
 
 .support {
-    grid-row: 1 / 5;
+    grid-row: 1;
     grid-column: 1;
     list-style-type: none;
 }
 
 .platforming {
-    grid-row: 1 / 5;
+    grid-row: 1;
     grid-column: 2;
     list-style-type: none;
 }
 
 .devOps {
     grid-column: 3;
-    grid-row: 1 / 5;
+    grid-row: 1;
     list-style-type: none;
 }
+
 
 .nexusplatform {
     background-color: #000000;
@@ -212,7 +215,6 @@ body {
     box-shadow: 1px 1px 1px 1px #5ADEE1;
 }
 
-
 .nexusheader {
     font-family: 'montlite';
     display: flex;
@@ -221,7 +223,6 @@ body {
     align-self: center;
 }
 
-
 .nexusheader2 {
     font-family: 'montlite';
     display: flex;
@@ -229,7 +230,6 @@ body {
     display: flex;
     align-self: center;   
 }
-
 
 .nexIn {
     background-color: #000000;
